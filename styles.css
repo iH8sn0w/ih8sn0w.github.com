@@ -1,0 +1,169 @@
+
+/**
+ * iH8sn0w.com CSS
+ * (c) 2013 Callum Jones <cj@icj.me>
+ */
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	background: #E8E8E8;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div#logo {
+	padding-left: 10px;
+	font-size: 3.5em;
+	font-weight: bold;
+	color: #858384;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+div#header p#tagline {
+	font-size: 0.8em;
+	font-style: italic;
+	color: grey;
+	position: relative;
+	left: 20px;
+	margin-top: -6px;
+}
+
+div#header {
+	display: block;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#navigation {
+	background: #404040;
+	width: 960px;
+	height: 40px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: auto;
+	position: relative;
+	margin-right: auto;
+	border-radius: 3px;
+	box-shadow: 0px 0px 4px #8C8B8B;
+	border: 1px solid #8C8B8B;
+	z-index: 100;
+}
+
+div#navigation a {
+	width: 125px;
+	display: table-cell;
+	text-align: center;
+	height: 40px;
+	color: #fff;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+div#navigation a:hover {
+	background: #4D4D4D;
+	-webkit-transition-property: background, color;
+	-webkit-transition-duration: 0.2s, 0.2s;
+	-webkit-transition-timing-function: ease-in, ease-in;
+}
+
+div#navigation a.blue:hover {
+	color: #43BDFA;
+}
+
+div#navigation a.green:hover {
+	color: #43FA5F;
+}
+
+div#navigation a.red:hover {
+	color: #FA4343;
+}
+
+div#navigation a.yellow:hover {
+	color: #FAD843;
+}
+
+div#navigation a.pink:hover {
+	color: #FA43DF;
+}
+
+div#header:after {
+	width: 20px;
+	background: #000;
+}
+
+div#roller {
+	height: 200px;
+	display: block;
+	background: #000;
+	width: 960px;
+	z-index: 8;
+	position: relative;
+	margin-top: -4px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2px;
+}
+
+div#content {
+	width: 930px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+	z-index: 10;
+	border-radius: 2px;
+	margin-top: -2px;
+	min-height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fff;
+	border: 1px solid #8C8B8B;
+	box-shadow: 0px 0px 4px #8C8B8B;
+}
+
+div#content div.post {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #8C8B8B;
+}
+
+div#content div.post:last-child {
+	border-bottom: none;
+}
+
+div#footer {
+	padding-top: 20px;
+	font-size: 0.8em;
+	color: grey;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	/*border-top: 1px solid #858384;*/
+	height: 150px;
+}
+
+div.col2 {
+	width: 49%;
+	display: inline-block;
+}
+
+div.col3 {
+	width: 33%;
+	display: inline-block;
+}
+
+div.col4 {
+	width: 25%;
+	display: inline-block;
+}
+
+div.showad {
+	text-align: center;
+	padding-top: 5px;
+}
+
+li {
+    list-style-type: square;
+}
